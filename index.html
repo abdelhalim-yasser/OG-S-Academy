@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>OG's Academy</title>
+      <link rel="stylesheet" href="og's.css" />
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+   </head>
+   <body>
+      <!-- Header Section -->
+      <header class="header">
+         <a href="#" class="logo-container">
+         <img src="1-0.png" alt="OG's Academy Logo" class="logo" />
+         </a>
+         <div class="hamburger" onclick="toggleMenu()">
+            <i id="menu-icon" class="fas fa-bars"></i>
+         </div>
+         <nav class="nav" id="nav">
+            <ul class="nav-list" id="nav-list">
+               <li><a href="#header" class="nav-link">Home</a></li>
+               <li><a href="#vision" class="nav-link">Vision</a></li>
+               <li><a href="#course_syllabus" class="nav-link">Course Syllabus</a></li>
+               <li><a href="#FAQs" class="nav-link">FAQs</a></li>
+               <li><a href="#contact-form" class="nav-link">Contact Us</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <!-- Welcome with Slideshow -->
+         <section id="welcome">
+            <div class="slideshow-container">
+               <div class="mySlides fade"><img src="9.png" class="banner" /></div>
+               <div class="mySlides fade"><img src="coding.png" class="banner" /></div>
+               <div class="mySlides fade"><img src="ps.png" class="banner" /></div>
+               <div class="mySlides fade"><img src="math.png" class="banner" /></div>
+               <div class="mySlides fade"><img src="stat.png" class="banner" /></div>
+            </div>
+            <br />
+            <div style="text-align: center;">
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+               <span class="dot"></span>
+            </div>
+         </section>
+         <!-- Hero Section -->
+         <section class="hero">
+            <h1>Welcome to OG's Academy</h1>
+            <p>Your journey to mastering computer development starts here.</p>
+         </section>
+         <hr />
+         <!-- Back to Top Button -->
+         <button id="backToTop" class="back-to-top">
+         <i class="fa-solid fa-arrow-up"></i>
+         </button>
+         <!-- Vision Section -->
+         <section id="vision">
+            <h1>Our Vision</h1>
+            <p>At OG's Academy, we believe in empowering individuals with the skills and knowledge to excel in the world of computer development. Our vision is to create a community of learners who are passionate about technology and eager to innovate.</p>
+         </section>
+         <hr />
+         <!-- Course Syllabus Section -->
+         <section id="course_syllabus">
+            <h1>Course Syllabus</h1>
+            <p>Our course is designed to take you from beginner to advanced levels in computer development. Each lecture builds on the previous one, ensuring a solid foundation and progressive learning.</p>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Introduction</b></h4>
+                  <ul>
+                     <li>What is programming?</li>
+                     <li>How computers work</li>
+                     <li>Course overview</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Mathematics</b></h4>
+                  <ul>
+                     <li>Differentiation and its importance in computing</li>
+                     <li>Integration and its importance in computing</li>
+                     <li>Basic discrete math concepts</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Statistics</b></h4>
+                  <ul>
+                     <li>Basics of probability</li>
+                     <li>Types of distributions</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Coding Fundamentals</b></h4>
+                  <ul>
+                     <li>Understanding logic & syntax through:</li>
+                     <li>C</li>
+                     <li>C++</li>
+                     <li>Python</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Data Structures</b></h4>
+                  <ul>
+                     <li>Arrays</li>
+                     <li>File handling</li>
+                     <li>Operations on data structures</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Algorithms</b></h4>
+                  <ul>
+                     <li>Bubble Sort</li>
+                     <li>Binary Search</li>
+                     <li>Linear Search</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Introduction to Web Development</b></h4>
+                  <ul>
+                     <li>Types of servers</li>
+                     <li>Create websites with HTML, CSS, and JS</li>
+                     <li>Intro to web frameworks</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Fun Lectures</b></h4>
+                  <ul>
+                     <li>Artificial Intelligence</li>
+                     <li>Cyber Security</li>
+                     <li>Playing with data</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <h4><b>Final Lecture</b></h4>
+                  <ul>
+                     <li>Graduation Ceremony</li>
+                     <li>Faculty tips & next steps</li>
+                     <li>Final talk & feedback</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <hr />
+         <!-- FAQs Section -->
+         <section id="FAQs">
+            <h1>Frequently Asked Questions</h1>
+            <button class="accordion">What is OG's?</button>
+            <div class="panel">
+               <p>It's an academy specialized in teaching computer fundamentals and giving you an intro to the world of computer development and essential programming languages.</p>
+            </div>
+            <button class="accordion">For whom is OG's?</button>
+            <div class="panel">
+               <p>It's for all students who want to understand computers and how they work, helping them gain the knowledge to enter specialized faculties or start a tech career.</p>
+            </div>
+            <button class="accordion">How long does the course take?</button>
+            <div class="panel">
+               <p>It takes about 2 months with 2 lectures per week.</p>
+            </div>
+            <button class="accordion">When will the course begin?</button>
+            <div class="panel">
+               <p>The course starts in July and ends in September.</p>
+            </div>
+            <button class="accordion">How much does the course cost?</button>
+            <div class="panel">
+               <p>The first lecture is free. Each lecture costs 60 EGP, or 900 EGP for the full course bundle.</p>
+            </div>
+            <button class="accordion">Is there a money-back guarantee?</button>
+            <div class="panel">
+               <p>Yes, it's available for those who pay for the full course bundle.</p>
+            </div>
+            <button class="accordion">Where is the location?</button>
+            <div class="panel">
+               <p>Locations will be announced soon, and there may be online options.</p>
+            </div>
+         </section>
+         <hr />
+         <!-- Contact Section -->
+         <section id="contact-container">
+            <h1>Contact Us</h1>
+            <p style="text-align: center;">If you have any questions or need more information, feel free to reach out to us.</p>
+            <div id="contact-success" class="contact-success" style="display: none;">
+               Thanks! Your message has been sent.
+            </div>
+            <form id="contact-form" action="https://formsubmit.co/abdelhalimyasser88@gmail.com" method="POST">
+               <input autocomplete="off" autofocus type="text" name="name" placeholder="Your Name" class="placeholder" required />
+               <input type="email" name="email" placeholder="Your Email" class="placeholder" required />
+               <input type="text" name="telephone" placeholder="Your Phone" class="placeholder" required />
+               <textarea autocomplete="off" name="message" placeholder="Your Message" rows="5" class="message" required></textarea>
+               <button type="submit" class="form-button">Send Message</button>
+            </form>
+         </section>
+      </main>
+      <!-- Footer Section -->
+      <footer class="footer">
+         <div class="footer-sections">
+            <img src="9.png" alt="OG's Logo" class="footer-logo" />
+            <ul class="footer-list">
+               <li><a href="#vision">Vision</a></li>
+               <li><a href="#course_syllabus">Course Syllabus</a></li>
+               <li><a href="#FAQs">FAQs</a></li>
+               <li><a href="#contact-form">Contact Us</a></li>
+            </ul>
+            <div class="footer-icons">
+               <a href="https://github.com/#" target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/#" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://wa.me/#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+               <a href="https://tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
+               <a href="https://www.youtube.com/#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+         </div>
+         <p class="footer-copy">&copy; 2025 <a href="#">OG's Academy</a> | All Rights Reserved</p>
+         <p class="logibyte">Done and Designed by: <a href="https://logibyte.com" target="_blank" class="logibyte-link">LogiByte</a></p>
+      </footer>
+      <script src="og's.js"></script>
+   </body>
+</html>
